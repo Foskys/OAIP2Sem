@@ -1,0 +1,20 @@
+﻿Сборка начата 25.03.2024 15:22:57.
+Уровень детализации журнала: Normal.     1>Проект "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab6-7\lab6-7.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab6-7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab6-7.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         lab6-7.vcxproj -> D:\later github\index.html\ОАИП\main.cpp\oh my god\lab6-7\x64\Debug\lab6-7.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab6-7.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab6-7.tlog\lab6-7.lastbuildstate".
+     1>Сборка проекта "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab6-7\lab6-7.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.03
