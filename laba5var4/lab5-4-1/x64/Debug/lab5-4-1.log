@@ -1,0 +1,61 @@
+﻿Сборка начата 11.03.2024 15:06:20.
+Уровень детализации журнала: Normal.     1>Проект "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab5-4-1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab5-4-1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab5-4-1.cpp"
+         lab5-4-1.cpp
+     1>D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): error C2678: бинарный ">>": не найден оператор, принимающий левый операнд типа "std::istream" (или приемлемое преобразование отсутствует)
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(299,39): message : может быть "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(295,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(291,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(287,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(283,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(279,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(275,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(271,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(267,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(263,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(255,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(251,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(219,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(215,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(186,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(181,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(176,39): message : или       "std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : или       "встроенный оператор C++>>(int, unsigned int)"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(902,9): message : или       "_Istr &&std::operator >>(_Istr &&,_Ty &&)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : "_Istr &&std::operator >>(_Istr &&,_Ty &&)": не удается вывести аргумент шаблон для "__formal"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(889,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : инициализация: невозможно преобразовать "unsigned int" в "unsigned char &"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(883,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : инициализация: невозможно преобразовать "unsigned int" в "signed char &"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(860,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)": в шаблон параметр "_Elem" неоднозначен
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : может быть "unsigned int"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : или       "char"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)': не удалось вывести аргумент шаблон для '_Elem &' из 'unsigned int'
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(854,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : инициализация: невозможно преобразовать "unsigned int" в "unsigned char *"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(849,31): message : или       "std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : инициализация: невозможно преобразовать "unsigned int" в "signed char *"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,42): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\istream(844,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)': не удалось вывести аргумент шаблон для '_Elem *' из 'unsigned int'
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5136,32): message : или       "std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)"
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &' из 'unsigned int'
+       D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): message : при попытке сопоставить список аргументов "(std::istream, unsigned int)"
+     1>Сборка проекта "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\later github\index.html\ОАИП\main.cpp\oh my god\lab5-4-1\lab5-4-1.cpp(102,5): error C2678: бинарный ">>": не найден оператор, принимающий левый операнд типа "std::istream" (или приемлемое преобразование отсутствует)
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:01.46
