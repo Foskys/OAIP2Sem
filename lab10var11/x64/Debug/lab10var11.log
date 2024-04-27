@@ -1,0 +1,33 @@
+﻿Сборка начата 15.04.2024 12:47:27.
+Уровень детализации журнала: Normal.     1>Проект "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\lab10var11.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\lab10var11.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab10var11.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab10var11.cpp
+         lab10var11.cpp
+     1>D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(12,9): warning C4101: x: неиспользованная локальная переменная
+     1>D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(12,12): warning C4101: n: неиспользованная локальная переменная
+     1>D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(8): warning C4715: Pn: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\x64\Debug\lab10var11.exe" /INCREMENTAL /ILK:"x64\Debug\lab10var11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\x64\Debug\lab10var11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\x64\Debug\lab10var11.lib" /MACHINE:X64 x64\Debug\lab10var11.obj
+         lab10var11.vcxproj -> D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\x64\Debug\lab10var11.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab10var11.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab10var11.tlog\lab10var11.lastbuildstate".
+     1>Сборка проекта "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(12,9): warning C4101: x: неиспользованная локальная переменная
+         D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(12,12): warning C4101: n: неиспользованная локальная переменная
+         D:\later github\index.html\ОАИП\main.cpp\oh my god\lab10var11\lab10var11.cpp(8): warning C4715: Pn: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:02.33
