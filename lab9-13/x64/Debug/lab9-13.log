@@ -1,0 +1,20 @@
+﻿Сборка начата 26.03.2024 15:15:32.
+Уровень детализации журнала: Normal.     1>Проект "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab9-13\lab9-13.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab9-13.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab9-13.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         lab9-13.vcxproj -> D:\later github\index.html\ОАИП\main.cpp\oh my god\lab9-13\x64\Debug\lab9-13.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab9-13.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab9-13.tlog\lab9-13.lastbuildstate".
+     1>Сборка проекта "D:\later github\index.html\ОАИП\main.cpp\oh my god\lab9-13\lab9-13.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.08
